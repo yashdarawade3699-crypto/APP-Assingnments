@@ -1,0 +1,13 @@
+class Employee:
+    def getdata(self,name,ID,department):
+        self.name=name
+        self.ID=ID
+        self.department=department
+    def display(self):
+        print("Employee Name:",self.name)
+        print("Employee ID:",self.ID)
+        print("Employee department:",self.department)
+
+e1=Employee()
+e1.getdata("Yash","23","Cse")    
+e1.display() 
