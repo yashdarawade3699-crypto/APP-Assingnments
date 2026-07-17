@@ -1,0 +1,10 @@
+class Number:
+    @staticmethod
+    def check_even_odd(num):
+        if num % 2==0:
+            print("Number is even ",num)
+        else:
+         print("NUmber is odd",num)
+Number.check_even_odd(99)
+n1=Number()
+n1.check_even_odd
